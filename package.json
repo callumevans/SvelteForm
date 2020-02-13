@@ -1,0 +1,19 @@
+{
+  "name": "SvelteJourney",
+  "version": "1.0.0",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-svelte": "^4.0.6",
+    "svelte": "^3.16.7",
+    "typescript": "^3.7.5"
+  },
+  "dependencies": {},
+  "scripts": {
+    "dev": "parcel src/dev/index.html",
+    "build": "npm run clean && parcel build src/index.js",
+    "clean": "rimraf dist"
+  },
+  "browserslist": [
+    "last 1 chrome versions"
+  ]
+}
