@@ -1,3 +1,9 @@
-import Journey from "./Journey.svelte";
+import App from './App.svelte';
 
-export { Journey }
+const app = new App({
+    target: document.body,
+    props: {
+    },
+});
+
+export default app;
